@@ -1,0 +1,189 @@
+{
+	"info": {
+		"_postman_id": "421dc9a0-a53b-428c-b326-23b90bdb5e11",
+		"name": "Mentoria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Students Options",
+			"request": {
+				"method": "OPTIONS",
+				"header": [],
+				"url": {
+					"raw": "http://some_url/api/v1/students",
+					"protocol": "http",
+					"host": [
+						"some_url"
+					],
+					"path": [
+						"api",
+						"v1",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Students Fetch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://some_url/api/v1/students",
+					"protocol": "http",
+					"host": [
+						"some_url"
+					],
+					"path": [
+						"api",
+						"v1",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Student Fetch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://some_url/api/v1/students/1001",
+					"protocol": "http",
+					"host": [
+						"some_url"
+					],
+					"path": [
+						"api",
+						"v1",
+						"students",
+						"1001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Student Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dom Toredo\",\n    \"age\": 39\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://some_url/api/v1/students",
+					"protocol": "http",
+					"host": [
+						"some_url"
+					],
+					"path": [
+						"api",
+						"v1",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Student Put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dom Toredo Ohana\",\n    \"age\": 28\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://some_url/api/v1/students/1001",
+					"protocol": "http",
+					"host": [
+						"some_url"
+					],
+					"path": [
+						"api",
+						"v1",
+						"students",
+						"1001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Student Patch",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dom Toredo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://some_url/api/v1/students/1001",
+					"protocol": "http",
+					"host": [
+						"some_url"
+					],
+					"path": [
+						"api",
+						"v1",
+						"students",
+						"1001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Student Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://some_url/api/v1/students/1001",
+					"protocol": "http",
+					"host": [
+						"some_url"
+					],
+					"path": [
+						"api",
+						"v1",
+						"students",
+						"1001"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
